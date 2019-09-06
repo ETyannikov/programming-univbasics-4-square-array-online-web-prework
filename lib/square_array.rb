@@ -1,8 +1,8 @@
-def square_array(array)
+def output_array_elements(array)
   counter = 0
-  
+ 
   while counter < array.length do
-    array[counter] = array[counter] *2
-    counter++
+    puts array[counter]
+    counter += 1
   end
 end
